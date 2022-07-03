@@ -1,0 +1,68 @@
+/* --- Inicio header --- */
+.home header{
+    background-color: var(--Amarillo);
+    padding-bottom: 20px;
+}
+.home header .main-header{
+    padding: 2px;
+}
+.home header .main-header .logo{
+    margin: 1%;
+}
+.home header p{
+ text-align: center;
+ margin: 15px 0;
+}
+.home header nav ul {
+margin-bottom: 10px;
+}
+.home header nav ul li a{
+    color:black;
+}
+.home header .burguer-menu{
+    text-align: center;
+    background-color: var(--Celeste);
+    color: white;
+    border: none;
+    padding: 3%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.home header .burguer-menu i{
+    font-size:18px;
+}
+
+
+
+
+/* --- Fin header --- */
+/* ---Inicio Main --- */
+/* ---Fin Main --- */
+/* ---Inicio Footer --- */
+.home footer section i{
+    text-align: center;
+    background-color: white;
+    color: var(--Celeste);
+    border: none;
+    padding-top: 13%;
+    padding-bottom: 3%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    font-size:30px;
+}
+.home footer h4{
+    margin: 0%;
+    text-align: center;
+    color: var(--Gris-oscuro);
+}
+.home footer p{
+    color: var(--Gris-oscuro);
+    text-align: center;
+    margin: 0%;
+}
+.home footer h5{
+color: var(--Gris-oscuro);
+}
+/* ---Fin Footer --- */
