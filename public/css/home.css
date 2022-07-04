@@ -9,15 +9,28 @@
 .home header .main-header .logo{
     margin: 1%;
 }
+/* element.style{
+    height: 50px;
+    width: 164px;
+} */
+.home header .search{
+    margin-left: 18px;
+}
 .home header p{
  text-align: center;
  margin: 15px 0;
 }
+
 .home header nav ul {
 margin-bottom: 10px;
+margin-left: -40px;
+list-style: none;
+
 }
 .home header nav ul li a{
     color:black;
+    text-decoration: none;
+ 
 }
 .home header .burguer-menu{
     text-align: center;
