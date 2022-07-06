@@ -9,10 +9,12 @@
 .home header .main-header .logo{
     margin: 1%;
 }
-/* element.style{
+header .logo img{
+
     height: 50px;
     width: 164px;
-} */
+}
+
 .home header .search{
     margin-left: 18px;
 }
@@ -23,7 +25,7 @@
 
 .home header nav ul {
 margin-bottom: 10px;
-margin-left: -40px;
+margin-left: 0;
 list-style: none;
 
 }
@@ -32,6 +34,10 @@ list-style: none;
     text-decoration: none;
  
 }
+.home header nav ul li a i{
+    padding-left: 6px
+}
+
 .home header .burguer-menu{
     text-align: center;
     background-color: var(--Celeste);
@@ -59,11 +65,13 @@ list-style: none;
     color: var(--Celeste);
     border: none;
     padding-top: 13%;
-    padding-bottom: 3%;
+ /*    padding-bottom: 3%; */
+ /* font-size:30px; */
     border-radius: 5px;
     display: block;
     margin: 0 auto;
-    font-size:30px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 .home footer h4{
     margin: 0%;
@@ -77,5 +85,6 @@ list-style: none;
 }
 .home footer h5{
 color: var(--Gris-oscuro);
+padding: 21px;
 }
 /* ---Fin Footer --- */
