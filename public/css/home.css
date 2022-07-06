@@ -24,6 +24,7 @@ header .logo img{
 }
 
 .home header nav ul {
+    display: none;
 margin-bottom: 10px;
 margin-left: 0;
 list-style: none;
@@ -53,20 +54,67 @@ list-style: none;
 }
 
 
-
-
 /* --- Fin header --- */
+
 /* ---Inicio Main --- */
+body{
+    background-color: var(--Gris-claro);
+} 
+main{
+    
+    width: 90%;
+    margin: 0 auto;
+}
+main .banner{
+    display: none;
+}
+main section{
+    padding: 20px 0px;
+}
+main section h2{
+    color: var(--Gris-oscuro);
+    font-size: var(--font-size-titulares);
+}
+main section article{
+    background-color: white;
+    margin: 10px 0;
+}
+main section article .contenedor{
+    border-top: 1px solid var(--Gris-claro);
+}
+main section article img{
+    width: 100%;
+}
+main section article .camion{
+    padding: 10px;
+    border: 1px solid var(--Verde);
+    border-radius: 50%;
+    display: inline-block;
+}
+main section article .camion,main section article .descuento{
+    color: var(--Verde);
+    font-size: var(--font-size-descripcionesYdescuentos);
+}
+main section article h4{
+    display: none;
+    margin-top: 10px;
+    color: var(--Gris-oscuro);
+    font-size: var(--font-size-descripcionesYdescuentos);
+}
+
+
 /* ---Fin Main --- */
+
 /* ---Inicio Footer --- */
+footer{
+    background-color: white;
+}
 .home footer section i{
     text-align: center;
     background-color: white;
     color: var(--Celeste);
     border: none;
     padding-top: 13%;
- /*    padding-bottom: 3%; */
- /* font-size:30px; */
     border-radius: 5px;
     display: block;
     margin: 0 auto;
@@ -81,10 +129,30 @@ list-style: none;
 .home footer p{
     color: var(--Gris-oscuro);
     text-align: center;
-    margin: 0%;
+    margin: 0% 10%;
 }
 .home footer h5{
 color: var(--Gris-oscuro);
-padding: 21px;
+padding: 40px 0px;
+padding-left: 15px;
 }
 /* ---Fin Footer --- */
+
+/* TABLET */
+@media (min-width:461px) {
+   main section article{
+    box-shadow: ​0px​ ​0px​ ​10px​ ​rgb​(​100​, ​100​, ​100​);
+    }
+    main section article h4{
+    display: block;
+}
+.home header .burguer-menu{
+    display: none;
+}
+.home header nav ul {
+    display: block;
+}
+}
+
+/* DESKTOP */
+@media (min-width:769px){}
