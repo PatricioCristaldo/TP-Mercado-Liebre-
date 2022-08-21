@@ -1,0 +1,63 @@
+.login{
+    background-color: var(--Gris-claro);
+} 
+.login main .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    margin: 2%
+}
+.login main .form{
+    width: 50%;
+    padding-bottom: 45px;
+}
+.login main .form .ingreso{
+    width: 100%;
+    height: 35px;
+    border: none;
+    font-weight: 600;
+}
+.login main .enviar{
+width: 50%;
+text-align: center;
+}
+.login main .enviar button{
+    height: 30px;
+    border: none;
+    color: white;
+    text-shadow: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--Celeste);
+}
+/* ---Inicio Footer --- */
+.login footer{
+    background-color: white;
+}
+ .login footer section i{
+    text-align: center;
+    background-color: white;
+    color: var(--Celeste);
+    border: none;
+    padding-top: 13%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+ .login footer h4{
+    margin: 0%;
+    text-align: center;
+    color: var(--Gris-oscuro);
+}
+ .login footer p{
+    color: var(--Gris-oscuro);
+    text-align: center;
+    margin: 0% 10%;
+}
+ .login footer h5{
+color: var(--Gris-oscuro);
+padding: 40px 0px;
+padding-left: 15px;
+}

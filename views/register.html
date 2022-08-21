@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+    <link rel="stylesheet" href="/css/styles.css">
+   <script src="https://kit.fontawesome.com/9c9712e45b.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="register">
+    <main>
+      <section class="form-reg">
+        <h1>Crear cuenta</h1>
+        <form action="" method="post">
+          <div class="contenedor">
+            <div class="formulario">
+              <input
+                class="ingreso"
+                type="text"
+                name="Nombres"
+                id="Nombres"
+                placeholder="Nombre y apellido"
+                required
+              />
+            </div>
+            <div class="formulario">
+              <input
+                class="ingreso"
+                type="text"
+                name="Nombres"
+                id="Apellidos"
+                placeholder="Nombre de usuario"
+                required
+              />
+            </div>
+            <div class="formulario">
+              <input
+                class="ingreso"
+                type="E-mail"
+                name="E-mail"
+                id="E-mail"
+                placeholder="E-mail"
+                required/>
+            </div>
+          </div>
+          <div class="contenedor">
+            <h3>Fecha de nacimiento</h3>
+            <div class="formulario">
+                <input
+                  class="ingreso"
+                  type="date"
+                  name="fecha"
+                  id="fecha"
+                  placeholder="mm/dd/yyyy"
+                  required
+                />
+              </div>
+              <div class="formulario">
+                <input
+                  class="ingreso"
+                  type="email"
+                  name="Correo"
+                  id="Correo"
+                  placeholder="Domicilio"
+                  required
+                />
+              </div>
+              <h3>Perfil del usuario</h3>
+<div class="comprador">
+  <input type="radio" name="comprador" value="Sí">Comprador
+  <input type="radio" name="vendedor" value="Si">Vendedor
+</div>
+     <h3>Intereses</h3>     
+     <div class="intereses">
+     <div class="box">
+      <input type="checkbox" name="hobby" value="Electro" > Electro 
+     </div>
+     <div class="box">
+      <input type="checkbox" name="hobby" value="Moda"> Moda
+     </div>
+     <div class="box">
+      <input type="checkbox" name="hobby" value="Hogar"> Hogar
+     </div>
+     <div class="box">
+      <input type="checkbox" name="hobby" value="Juguetería"> Juguetería
+     </div>
+       <div class="box">
+        <input type="checkbox" name="hobby" value="Vida sana"> Vida sana
+       </div>
+       </div>
+       <br>
+<div>
+           <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >Foto de usuario</form>
+    <input type="file" name="" id="">
+</div>      
+ <div class="formulario">
+        <input class="ingreso" type="password" name="pass" id="pass" placeholder="Ingrese su contraseña" required>
+    </div>
+    <div class="formulario">
+        <input class="ingreso" type="password" name="pass2" id="pass2" placeholder="Confirme su contraseña" required>
+        
+    </div>
+    <div class="enviar"> 
+        <button type="submit"class="boton">Enviar</button>
+    </div>
+    <div class="enviar"> 
+        <button type="reset"class="boton">Borrar</button>
+    </div>
+    </main>   
+  </body>
+</html>

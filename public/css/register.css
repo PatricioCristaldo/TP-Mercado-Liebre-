@@ -1,0 +1,66 @@
+.register{
+    background-color: var(--Gris-claro);
+}
+.register main h1{
+    text-align: center;
+}
+.register .contenedor{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;  */  
+    margin: 2%
+}
+/* .register .contenedor{
+    display: initial;
+    width: 50%;
+    padding-bottom: 45px;
+} */
+.register .formulario{
+    display: flex;
+    margin: 20px 0px;
+    width: 100%;
+    height: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.register .formulario .ingreso{
+    width: 95%;
+    padding: 6px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.register h3{
+margin-top: 10px;
+}
+.register .comprador{
+    margin:10px
+}
+.register .comprador input{
+    margin: 10px 30px;
+}
+.register .intereses{
+    display: flex;
+    flex-direction: column;
+    
+}
+.register input{
+    margin: 10px;
+}
+.register .intereses .box{
+    margin:10px;
+}
+.register main .enviar{
+    display: contents;
+}
+.register .enviar button{
+    margin: 10px;
+    height: 30px;
+    border: none;
+    color: white;
+    text-shadow: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--Celeste);
+}
